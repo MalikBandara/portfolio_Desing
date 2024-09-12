@@ -1,0 +1,132 @@
+@media all and (max-width: 320px) {
+    #header{
+
+        display: none;
+    }
+
+    #home{
+        background: black;
+        background-size: cover;
+        height: 80vh;
+        position: relative;
+        width: 100%;
+    }
+    #my-img{
+
+        width: 80%;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    #home-title{
+        position: absolute;
+        top: 60%;
+        left: 20%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+    #home-title-01{
+        font-size: 9VW;
+    }
+    #home-title-02{
+        font-size: 12vw;
+    }
+    #home-title-03{
+        font-size: 6vw;
+    }
+    #home-title-04{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    #home-title-05{
+        font-size: 5vw;
+    }
+    #home-button-01{
+        width: 35vw;
+        height: 10vw;
+        border-radius: 8px;
+        font-size: 4vw;
+        font-family: "Poppins", sans-serif;
+        background: #3CECE3;
+        border: none;
+    }
+    /*about*/
+
+    #about{
+        background: black;
+
+        height: 90vh;
+        position: relative;
+    }
+
+    #my-img2{
+
+        width: 190%;
+        transform: translate(-110px , 100px);
+        border: 5px solid white;
+        box-shadow: 1px 1px 10px white;
+        margin-top: 100px;
+    }
+    #content1>h1{
+        display: none;
+    }
+
+
+    #content1>h3{
+        color: white;
+        transform: translate(-230px , -80px);
+        font-size: 20px;
+        width: 200px;
+    }
+    #about-ul{
+        transform: translate(-280px , -130px);
+        font-size: 15px;
+        text-align: left;
+        width: 250px;
+    ;
+    }
+    #part2{
+        display: none;
+    }
+
+    #about-button{
+        width: 28.5vw;
+        height: 4vh;
+        background: #3CECE3;
+        border-radius: 10px;
+        border: none;
+        font-size: 12px;
+        font-weight: 600;
+        transform: translate(-80px , 150px);
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+

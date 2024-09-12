@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+/*header*/
+#header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    background: black;
+    position: fixed;
+    z-index: 100;
+    backdrop-filter: blur(50px);
+
+
+}
+#logo{
+    width: 12%;
+    vertical-align: middle;
+}
+#header>nav>ul>a{
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+#home{
+    background: url("../Assests/home-back.jpeg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+#my-img{
+
+    width: 35%;
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+
+
+}
+#home-title{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+#home-title-01{
+    font-size: 5VW;
+}
+#home-title-02{
+    font-size: 10vw;
+}
+#home-title-03{
+    font-size: 3vw;
+}
+#home-title-04{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+#home-title-05{
+    font-size: 1.2vw;
+}
+#home-button-01{
+    width: 15vw;
+    height: 5vw;
+    border-radius: 8px;
+    font-size: 1.2vw;
+    font-family: "Poppins", sans-serif;
+    background: #3CECE3;
+    border: none;
+}
+
+/*about*/
+
+#about{
+    background: url("../Assests/about-back.png");
+    background-size: cover;
+    height: 160vh;
+    position: relative;
+}
+
+#part1{
+    padding: 200px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10rem;
+
+
+}
+#a-content{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+#my-img2{
+
+    width: 50%;
+    transform: translate(-10px , -80px);
+    border: 5px solid white;
+    box-shadow: 1px 1px 10px white;
+    margin-top: 100px;
+}
+
+
+#education{
+    height: 100vh;
+    background: #3CECE3;
+}
+#about-button{
+    width: 21vw;
+    height: 10vh;
+    background: #3CECE3;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+.img-button{
+    display: flex;
+    flex-direction: column;
+}
+#about-ul{
+    display: flex;
+    gap: 3vw;
+    font-size: 1vw;
+
+
+}
+#about-ul>ul>li{
+    list-style: none;
+}
+#content1>h1{
+    font-size: 7vw;
+    -webkit-text-stroke: 2px #3CECE3;
+    color: transparent;
+}
+#content1>h3{
+    font-size: 3.5vw;
+}
+#a-content>p{
+    font-size: 1vw;
+}
+
+#about-ul>ul>li{
+    padding-bottom: 15px;
+}
+
+#part2>div{
+    width: 80vw;
+    height: 10vw;
+    background: white;
+    margin-left: 200px;
+    margin-top:  -50px;
+    border-radius: 10px;
+}
+.a-ul{
+    color: #3CECE3;
+}
+.a-qualification{
+    display: flex;
+    padding: 40px 80px;
+}
+.a-qualification>h3{
+    font-size: 3vw;
+}
+.a-qualification>h3>sub>span{
+    padding: 20px;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

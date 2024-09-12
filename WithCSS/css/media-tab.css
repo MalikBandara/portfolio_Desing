@@ -1,0 +1,122 @@
+@media all and (max-width: 768px) {
+    #home{
+        background: url("../Assests/home-back.jpeg");
+        background-size: cover;
+        height: 70vh;
+        position: relative;
+    }
+    #header>nav>ul>a{
+        padding-left: 25px;
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+    }
+    #header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 45px;
+        background: black;
+        position: fixed;
+        z-index: 100;
+        backdrop-filter: blur(50px);
+
+
+    }
+    #my-img{
+
+        width: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 48%;
+    }
+    #home-title{
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    #home-button-01{
+        width: 15vw;
+        height: 5vw;
+        border-radius: 8px;
+        font-size: 1.5vw;
+        font-family: "Poppins", sans-serif;
+        background: #3CECE3;
+        border: none;
+    }
+    #home-title-05{
+        font-size: 1.8vw;
+    }
+    /*about*/
+
+    #about{
+        background: black;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+    #my-img2{
+
+        width: 120%;
+        transform: translate(-100px , -80px);
+        border: 5px solid white;
+        box-shadow: 1px 1px 10px white;
+        margin-top: 100px;
+    }
+    #about-button{
+        width: 24vw;
+        height: 6vh;
+        background: #3CECE3;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        transform: translate(-80px , -20px);
+
+
+    }
+    #a-content{
+
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        transform: translate(-110px , 10px);
+
+    }
+    #a-content>p{
+        font-size: 1.8vw;
+        text-align: left;
+        width: 300px;
+    }
+    #about-ul{
+        display: flex;
+        gap: 3vw;
+        font-size: 1.5vw;
+
+
+    }
+    #part2>div{
+        width: 80vw;
+        height: 10vw;
+        background: white;
+        margin-left: 90px;
+        margin-top:  -50px;
+        border-radius: 10px;
+        transform: translate(-10px , -80px);
+    }
+    .a-qualification{
+        display: flex;
+        padding: 20px 10px;
+    }
+    .a-qualification>h3>sub>span{
+
+        font-size: 1vw;
+    }
+
+}
