@@ -11,6 +11,12 @@
         position: relative;
 
     }
+    #about{
+        background: black;
+        height: 100vh;
+        position: relative;
+        width: 100%;
+    }
     #my-img{
 
         width: 80%;
