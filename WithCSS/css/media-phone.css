@@ -15,7 +15,7 @@
         background: black;
         height: 100vh;
         position: relative;
-        width: 100%;
+
     }
     #my-img{
 
@@ -61,12 +61,6 @@
     }
     /*about*/
 
-    #about{
-        background: black;
-        height: 170vh;
-        position: relative;
-        width: 100%;
-    }
 
     #my-img2{
 
@@ -279,7 +273,7 @@
     #about{
         background: black;
 
-        height: 90vh;
+        height: 120vh;
         position: relative;
     }
     #a-content>p{
