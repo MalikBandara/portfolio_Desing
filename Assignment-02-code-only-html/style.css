@@ -1,0 +1,33 @@
+.First_page{
+    background-color: #182B2B;
+    height: 750px;
+
+}
+.First_Page_name{
+    position: absolute;
+    left: 800px;
+    top: 220px;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+.First_Page_name2{
+    position: absolute;
+    left: 900px;
+    top: 310px;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.title_my{
+    position: absolute;
+    left: 690px;
+    top: 500px;
+    font-size: 25px;
+    color: #279892;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+}
