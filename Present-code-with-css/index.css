@@ -33,7 +33,10 @@ ul{
     flex-wrap: wrap;
 }
 .justify-content-between{
-    justify-content: space-between;
+    justify-content: center;
+}
+.education-item-inner p {
+    width: 100%;
 }
 
 
@@ -63,83 +66,23 @@ ul{
     padding: 80px 0 ;
 }
 /*nav bar*/
-.navbar{
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    padding: 25px;
-    transition: all 0.5s ease;
-}
-.navbar.sticky{
-    padding: 12px 25px;
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-}
-.navbar .logo a{
-    color: var(--main-color);
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-.navbar .menu .nav-item{
-    display: inline-block;
-    position: relative;
-    margin-left: 36px;
-}
-.navbar .menu .nav-item .nav-link{
-    color: black;
-    font-size: 16px;
-    font-weight: 600;
-    display: block;
-    text-transform: capitalize;
-    padding: 10px 0;
-}
-.navbar .nav-item .nav-link span{
-    width: 0;
-    height: 2px;
-    background-color: black;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    border-radius: 50px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease-in-out;
-}
-.navbar .nav-item .nav-link span::before{
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 2px;
-    background-color: #3CECE3;
-    left: 110%;
 
-}
-.navbar .nav-item .nav-link span::after{
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 2px;
-    background-color: white;
-    left: 140%;
-}
-.navbar.sticky .nav-item a span,.navbar.sticky .nav-item a span::before,.navbar.sticky .nav-item a span::after{
-    background-color: black;
-}
-.navbar .nav-item > .nav-link.active span,.navbar .nav-item:hover > .nav-link span{
-    opacity: 1;
-    visibility: visible;
-    width: 60%;
-}
-.navbar .nav-item > .nav-link.active span::before,.navbar .nav-item:hover > .nav-link span::before{
-    width: 20%;
-}
-
-.navbar .nav-item > .nav-link.active span::after,.navbar .nav-item:hover > .nav-link span::after{
-    width: 15%;
-}
 
 /*===========  home ===============*/
+
+.menu-btn{
+    background-color: #3CECE3;
+    height: 34px;
+    width: 44px;
+    box-shadow: var(--shadow-black-100);
+    padding: 0;
+    border-radius: 5px;
+    line-height: 34px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    display: none;
+}
 img{
     vertical-align: middle;
 }
@@ -756,3 +699,5 @@ img{
 .lightbox-controls .prev-item .fa:active{
     transform: scale(1);
 }
+
+
