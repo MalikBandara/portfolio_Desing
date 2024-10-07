@@ -474,3 +474,85 @@ a:hover {
 }
 
 /*about section end*/
+
+/*Education section start*/
+.Education-section{
+    background-color: #182B2B;
+}
+
+.line li{
+    display: inline-block;
+    background-color: #3CECE3;
+    border-radius: 50px;
+    height: 3px;
+}
+ .line li:nth-of-type(1){
+    width: 64px;
+}
+
+ .line li:nth-of-type(2){
+    width: 10px;
+}
+
+ .line li:nth-of-type(3){
+    width: 7px;
+}
+
+.edu-title{
+    text-align: center;
+    padding-top: 55px;
+    color: white;
+    font-size: 3rem;
+}
+.edu-title h5{
+    font-size: 1.5rem;
+    color: #3cece3;
+}
+.edu-container{
+    padding: 25px 10%;
+}
+
+.col2{
+
+    color: white;
+}
+.edu-contents {
+    padding: 0 35px;
+    border-left: 2px solid white;
+}
+.edu-contents .box {
+    position: relative;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: all 0.4s ;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.box1{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.box2{
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 26px);
+    top: 0;
+    background-color: #3cece3;
+    border: 2px solid white;
+}
+/*Education section end*/
