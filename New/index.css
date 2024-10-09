@@ -502,13 +502,14 @@ a:hover {
     width: 7px;
 }
 
-.edu-title{
+
+.title{
     text-align: center;
     padding-top: 55px;
     color: white;
     font-size: 3rem;
 }
-.edu-title h5{
+.title h5{
     font-size: 1.5rem;
     color: #3cece3;
 }
@@ -560,6 +561,21 @@ a:hover {
     top: 0;
     background-color: #3cece3;
     border: 2px solid white;
+}
+@media (max-width: 1024px) {
+    .Education-section .title h2{
+        font-size: 2.5rem;
+    }
+    .experience-section h2 {
+        font-size: 2.5rem;
+    }
+    .skill-section h2{
+        font-size: 2.5rem;
+    }
+    .certification-section h2{
+        font-size: 2.5rem;
+    }
+
 }
 /*Education section end*/
 
@@ -614,4 +630,208 @@ a:hover {
         max-height: 150px;
     }
 }
+@media (max-width: 490px) {
+    .education-section .title h2{
+        font-size: 1rem;
+    }
+}
 /*Experience section end*/
+
+/*Skill section Start*/
+.skill-box-container{
+    padding: 50px 0 0 70px;
+}
+.skill-section {
+    background-color: black;
+    color: white;
+}
+.skill-col{
+    display: flex;
+    flex: 33.33%;
+
+}
+.skill-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skill-box p {
+    padding: 50px;
+}
+.skill-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.skill-box img {
+    max-width: 250px;
+    max-height: 250px;
+}
+/*Skill section end*/
+
+
+/*certification section start */
+.certificate-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.certification-section{
+    background: linear-gradient(to bottom, #000000, #314F4F);
+}
+.certificate-item{
+    flex: 0 0 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+.certificate-item-inner{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: var(--shadow-black-100);
+    cursor: pointer;
+    position: relative;
+
+}
+.certificate-item-inner img{
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    border-radius: 5px;
+    /*justify-content: center;*/
+}
+
+.certificate-top-gap{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.certificate-item-inner:hover{
+    transform: scale(110%);
+    transition: all 0.8s ease;
+    box-shadow: 0 0 30px ;
+}
+@media (max-width: 768px) {
+    .certificate-row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .certificate-item-inner img{
+        max-width: 330px;
+        max-height: 330px;
+        display: flex;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .certificate-row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .certificate-item-inner img{
+        max-width: 200px;
+        max-height: 200px;
+        display: flex;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .certificate-row{
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*certification section end */
+
+
+/*service section start */
+.Service-section{
+    background: linear-gradient(to bottom, #314F4F, #000000 );
+}
+
+.service-row{
+    display: flex;
+}
+.service-item{
+
+    padding: 0 20px 35px;
+}
+.service-item-inner{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    gap: 1rem;
+    transition: all .5s ease-in-out;
+}
+.service-item-inner:hover{
+    background-color: white;
+    color: black;
+
+}
+.service-item-inner:hover .icon{
+    background-color: black;
+    color: white;
+}
+
+.service-col{
+    margin-top: 50px;
+}
+
+.service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    position: relative;
+    z-index: 1;
+}
+.service-item-inner .icon i {
+    line-height: 60px;
+}
+@media  (max-width: 768px) {
+
+    .service-row{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+/*service section end */
+
+/*project section start*/
+.project-section{
+
+    background: linear-gradient(to bottom, #000000, #314F4F );
+}
