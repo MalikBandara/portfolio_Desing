@@ -225,6 +225,27 @@ a:hover {
     background-color: #28a8a0;
     transform: scale(0.98);
 }
+.header-social{
+    display: flex;
+    gap: 2rem;
+    padding-top: 75px;
+}
+.fab{
+    font-size: 2.2rem;
+    color: white;
+}
+.header-social li a{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    padding: 20px 15px;
+    color: white;
+    transition: all 0.3s ease-out 0s;
+}
+.header-social li a:hover{
+    color: #3CECE3;
+    border-radius: 50%;
+}
 
 /* Responsive Size Home */
 
@@ -253,6 +274,11 @@ a:hover {
         max-width: 400px;
         max-height: 400px;
     }
+    .header-social{
+        display: flex;
+        gap: 2rem;
+        padding-top: 45px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -274,6 +300,11 @@ a:hover {
 
     html{
         font-size: 60%;
+    }
+    .header-social{
+
+        gap: 2rem;
+        padding-top: 45px;
     }
 
     .home-text p {
@@ -1109,3 +1140,11 @@ a:hover {
 }
 
 /*contact section end*/
+
+/*contact section02 start*/
+
+
+.contact-card01{
+    background: linear-gradient(to bottom, #314F4F,#000000);
+
+}
