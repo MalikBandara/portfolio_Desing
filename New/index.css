@@ -244,7 +244,11 @@ a:hover {
 }
 .header-social li a:hover{
     color: #3CECE3;
-    border-radius: 50%;
+    border-radius: 10%;
+}
+.social-a:hover{
+    padding: 5px;
+    background-color: transparent;
 }
 
 /* Responsive Size Home */
@@ -1041,6 +1045,12 @@ a:hover {
     }
     
 }
+@media (max-width: 320px) {
+    .assignment-card{
+        width: 200px;
+    }
+
+}
 
 /*contact section start*/
 
@@ -1147,4 +1157,110 @@ a:hover {
 .contact-card01{
     background: linear-gradient(to bottom, #314F4F,#000000);
 
+}
+.contact-content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    width: 100%;
+    background-color: #4f5252;
+    padding: 50px;
+    border-radius: 5px;
+
+}
+.contact02-row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact02-main-content{
+    margin-top: 100px;
+    border-bottom: 1px solid white;
+    padding-bottom :50px;
+    border-top: 1px solid white;
+    padding-top :50px;
+}
+
+.contact02-content{
+    display: flex;
+    gap: 2rem;
+    padding: 10px;
+}
+.contact02-min-div01{
+    color: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 9px;
+    border-right: 1px solid white;
+    justify-content: center;
+
+}
+.contact02-min-div02{
+    color: white;
+    display: flex;
+    width: 60%;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.my-logo{
+    max-width: 200px;
+    max-height: 200px;
+}
+.logo-text p {
+    font-weight: 800;
+    color: #3cece3;
+    font-size: 1rem;
+}
+.skill-set{
+    border-top: 1px solid white;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+.logo-text{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+}
+.con-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.last-con-ul{
+    text-align: right;
+}
+
+@media (max-width: 980px) {
+    .contact02-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .contact02-min-div01{
+        width: 100%;
+        border-right: 0;
+        text-align: center;
+    }
+    .contact02-min-div02{
+        width: 100%;
+        border-right: 0;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .contact02-min-div02{
+        display: none;
+    }
 }
