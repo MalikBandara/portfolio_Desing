@@ -24,11 +24,20 @@ section {
 
 body {
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+
+
 }
 nav {
-    background-color: white;
+    background-color: transparent;
+
     height: 80px;
     width: 100%;
+    position: fixed;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+
+
 }
 
 .logo {
@@ -51,7 +60,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     font-size: 1rem;
     text-transform: uppercase;
     padding: 7px 13px;
@@ -66,7 +75,7 @@ a:hover {
 
 .checkbtn {
     font-size: 30px;
-    color: black;
+    color: white;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -139,6 +148,7 @@ a:hover {
 /* home section start */
 
 .home-section {
+    padding-top: 100px;
     position: relative;
     background: black;
     z-index: 1;
@@ -158,12 +168,17 @@ a:hover {
     gap: 1rem;
     align-items: center;
 }
+.img-box{
+    text-align: center;
+}
 
 .img-box img {
     max-width: 650px;
-    max-width: 650px;
     object-fit: cover;
+    border-bottom-left-radius: 250px; /* Adjust the radius value as needed */
+    border-bottom-right-radius: 250px; /* Adjust the radius value as needed */
 }
+
 .home-text {
     width: 50%;
     background-color: transparent;
@@ -172,16 +187,26 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     padding-left: 50px;
+    gap: 1.5rem;
+    margin-top: 80px;
 }
 .home-image {
+    position: relative;
     width: 50%;
     background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
+
     
 }
-
+.liquid-shape{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    z-index: -1;
+    top: 10%;
+}
 .home-text h4 {
     font-size: 3rem;
 }
@@ -206,7 +231,7 @@ a:hover {
 
 }
 .button-div{
-    margin-top: 80px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
 
@@ -229,7 +254,8 @@ a:hover {
 .header-social{
     display: flex;
     gap: 2rem;
-    padding-top: 75px;
+    padding-top: 20px;
+
 }
 .fab{
     font-size: 2.2rem;
@@ -255,17 +281,64 @@ span {
     color: #3cece3;
 
 }
+
 .home-text h4 {
     font-size: 3.5rem;
     font-weight: 400;
 }
+.change-text{
+    font-size: 1.5rem;
+    font-weight: 600;
 
+}
+.change-text-h3{
+    font-size: 2.5rem;
+    line-height: 35px;
+    padding-left: 40px;
+}
+.change-text h3{
+    display: inline-flex;
+    margin: 0;
+    /*align-items: center;*/
+
+    vertical-align: top;
+}
+
+
+.change-text h3 .word{
+    position: absolute;
+    display: flex;
+    opacity: 0;
+}
+
+.change-text h3 .word .letter{
+    transform-origin: center center 25px ;
+}
+.change-text h3 .word .letter.out{
+    transform: rotateX(90deg);
+    transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+}
+.change-text h3 .word .letter.in{
+    transition: 0.38s ease ;
+}
+.change-text h3 .word .letter.behind{
+    transform: rotateX(-90deg);
+}
 /* Responsive Size Home */
 
 @media (max-width: 768px) {
     .row {
         display: flex;
         flex-direction: column;
+    }
+    .change-text h3 {
+        font-size: 1rem;
+    }
+    .change-text-h3 {
+        font-size: 2.5rem;
+        line-height: 35px;
+        padding-left: 40px;
+        padding-right: 100px;
     }
     .home-text p {
         padding: 20px;
@@ -374,12 +447,16 @@ span {
     /*background-color: rgb(36, 76, 78);*/
 }
 
+.about-btn-div{
+    padding-top: 50px;
+}
 .about-image {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
 }
 .about-btn{
 
@@ -427,6 +504,8 @@ span {
 }
 .personal-info span{
     color: white;
+
+
 }
 .personal-info li:first-child{
     gap: 4rem;
@@ -693,6 +772,8 @@ span {
 /*Experience section end*/
 
 /*Skill section Start*/
+
+
 .skill-box-container{
     padding: 50px 0 0 70px;
 }
@@ -722,16 +803,43 @@ span {
     align-items: center;
 
 }
+
 .skill-box img {
     max-width: 250px;
     max-height: 250px;
 }
+.js-img{
+    padding: 20px ;
+}
+@media  (max-width: 1024px) {
+
+    .skill-box .js-img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+@media  (max-width: 768px) {
+
+    .skill-box .js-img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+
 @media  (max-width: 425px) {
     .skill-box img {
         max-width: 200px;
         max-height: 200px;
     }
+    .skill-box .js-img{
+        max-width: 150px;
+        max-height: 150px;
+    }
 }
+
+
+
+
 /*Skill section end*/
 
 
