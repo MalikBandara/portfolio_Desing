@@ -29,7 +29,7 @@ body {
 
 }
 nav {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.29);
 
     height: 80px;
     width: 100%;
@@ -67,10 +67,11 @@ nav ul li a {
     border-radius: 3px;
 }
 
-a.active,
+
 a:hover {
     background: #3cece3;
     transition: 0.5s;
+    color: black;
 }
 
 .checkbtn {
@@ -202,8 +203,8 @@ a:hover {
 }
 .liquid-shape{
     position: absolute;
-    width: 80%;
-    height: 70%;
+    width: 75%;
+    height: 90%;
     z-index: -1;
     top: 10%;
 }
@@ -608,6 +609,21 @@ span {
     background-color: #182B2B;
 }
 
+.edu-contents .box h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.edu-contents .box h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: .7;
+}
+.edu-contents .box h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
 .line li{
     display: inline-block;
     background-color: #3CECE3;
@@ -830,6 +846,9 @@ span {
     .skill-box img {
         max-width: 200px;
         max-height: 200px;
+    }
+    .skill-box-container{
+        padding: 50px 0 0 0px;
     }
     .skill-box .js-img{
         max-width: 150px;
