@@ -624,6 +624,7 @@ span {
 
 }
 
+
 .line li{
     display: inline-block;
     background-color: #3CECE3;
@@ -681,6 +682,15 @@ span {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+}
+.edu-contents .box1:hover{
+    background-color: white;
+    color: black;
+}
+.edu-contents .box2:hover{
+    background-color: black;
+    color: white;
 }
 
 .box1{
@@ -748,6 +758,21 @@ span {
     transition: all .5s ease;
     box-shadow: 0 0 30px ;
 }
+.exp-content .exp-box h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
+.exp-content .exp-box h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #3cece3;
+}
+.exp-content .exp-box p{
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
 
 
 .exp-box2,.exp-box1{
@@ -808,6 +833,10 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.skill-box h3{
+    font-size: 2rem;
+    font-weight: 400;
 }
 .skill-box p {
     padding: 50px;
