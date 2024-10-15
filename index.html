@@ -62,7 +62,7 @@
                         <span class="word">Graphic&nbsp; Designer</span>
                     </h3>
                 </div>
-                <p>I am Malik Bandara. I am learning Computer Science,focusing on full stack development,and getting into machine learning. I like solving
+                <p class="hp1">I am Malik Bandara. I am learning Computer Science,focusing on full stack development,and getting into machine learning. I like solving
                     problems and making things look good.Lets work together and make cool stuff!</p>
 
                 <div class="button-div">
@@ -150,7 +150,7 @@
 <section class="Education-section">
     <div class="title">
         <h5>Education</h5>
-        <h2>Education & Achievements </h2>
+        <h2 data-text="Creative...">Education & Achievements </h2>
         <ul class="line">
             <li></li>
             <li></li>
@@ -225,7 +225,7 @@
 <section class="experience-section">
     <div class="title">
         <h5>Experience</h5>
-        <h2>Career Highlights</h2>
+        <h2 data-text="Creative...">Career Highlights</h2>
         <ul class="line">
             <li></li>
             <li></li>
@@ -265,7 +265,7 @@
 <section class="skill-section">
     <div class="title">
         <h5>Skill</h5>
-        <h2>Professional Abilities</h2>
+        <h2 data-text="Creative...">Professional Abilities</h2>
         <ul class="line">
             <li></li>
             <li></li>
@@ -330,8 +330,8 @@
 
 
     <div class="title">
-        <h5>Skill</h5>
-        <h2>Professional Abilities</h2>
+        <h5>Certificate</h5>
+        <h2>Certificate I achieved</h2>
         <ul class="line">
             <li></li>
             <li></li>
@@ -391,7 +391,7 @@
 <section class="Service-section">
     <div class="title">
         <h5>service</h5>
-        <h2>What I Do ?  </h2>
+        <h2 data-text="Creative...">What I Do ?  </h2>
         <ul class="line">
             <li></li>
             <li></li>
@@ -417,7 +417,7 @@
                             <i class=" fas fa-solid fa-code"></i>
                         </div>
                         <h3>Web Design </h3>
-                        <p>Web design entails creating websites that balance aesthetics, functionality, and user experience. It involves layout planning, color schemes, typography, and responsive design to ensure accessibility across various devices and screen sizes.
+                        <p>Web design entails creating websites that balance aesthetics, functionality, and user experience. It involves layout planning, and responsive design to ensure accessibility across various devices and screen sizes.
 
 
 
@@ -426,7 +426,7 @@
                 </div>
             </div>
 
-            <div class="service-col">
+            <div class="service-col service-col2">
                 <div class="service-item">
                     <div class="service-item-inner">
                         <div class="icon">
@@ -461,7 +461,7 @@
 <section class="project-section">
     <div class="title">
         <h5>Project</h5>
-        <h2>My Recent Project</h2>
+        <h2 data-text="Creative...">My Recent Project</h2>
         <ul class="line">
             <li></li>
             <li></li>
@@ -513,7 +513,7 @@
 <section class="assignment-section">
     <div class="title">
         <h5>Assignment</h5>
-        <h2>My Assignment</h2>
+        <h2 data-text="Creative...">My Assignment</h2>
         <ul class="line">
             <li></li>
             <li></li>
@@ -556,7 +556,7 @@
 <section class="gallery-section">
     <div class="title">
         <h5>Gallery</h5>
-        <h2>Gallery My Photoes </h2>
+        <h2 data-text="Creative...">Gallery My Photoes </h2>
         <ul class="line">
             <li></li>
             <li></li>
@@ -592,7 +592,7 @@
 <section class="contact-section">
     <div class="title">
         <h5>Contact</h5>
-        <h2>Get In Touch</h2>
+        <h2 data-text="Creative...">Get In Touch</h2>
         <ul class="line">
             <li></li>
             <li></li>
@@ -600,7 +600,7 @@
         </ul>
     </div>
     <div class="row">
-        <div class="content-div">
+        <div class="content-div padding-con">
             <div class="content-col1">
                 <h1>Let’s Connect</h1>
                 <h1>and start the </h1>
@@ -609,11 +609,17 @@
                     a project, or simply want to chat about design
                     feel free to reach out. Drop me a message.</p>
             </div>
+
+
+
             <div class="content-col2">
-                <input type="text" placeholder="Enter Your Name" class="contact-name input-field">
-                <input type="text" placeholder="Enter Your Email" class="contact-Mail input-field">
-                <input type="text" placeholder="Enter Your Address" class="contact-address input-field">
-                <a href=""  class="contact-btn">Submit</a>
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <input type="hidden" name="access_key" value="5e5c8f37-da17-48d2-b2f1-988a480acc17">
+                    <input type="text" name="name"placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="email"placeholder="Your email" class="contact-inputs" required>
+                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                    <button type="submit" class="contact-btn">Submit Form</button>
+                </form>
             </div>
         </div>
     </div>
