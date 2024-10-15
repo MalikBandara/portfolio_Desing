@@ -20,11 +20,13 @@ section {
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 
 
 }
@@ -1306,6 +1308,13 @@ span {
     }
     
 }
+
+@media (max-width: 500px) {
+    .assignment-card{
+        width: 350px;
+    }
+
+}
 @media (max-width: 375px) {
     .assignment-card{
         width: 280px;
@@ -1423,15 +1432,22 @@ span {
     }
 }
 
+
 @media  (max-width:  1024px) {
     .content-col1 h1{
         font-size: 3rem;
 
     }
 }
+@media (max-width: 480px) {
+    .content-col1 h1{
+        font-size: 2rem;
+        color: white;
+    }
+}
 @media  (max-width:  440px) {
     .content-col1 h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 @media  (max-width:  380px) {
