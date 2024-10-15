@@ -444,7 +444,7 @@ span {
 /*about section start*/
 
 .about-section{
-    background-color: black;
+    background: linear-gradient(to bottom, #000000,#314F4F);
     /*background-color: rgb(36, 76, 78);*/
 }
 
@@ -606,7 +606,7 @@ span {
 
 /*Education section start*/
 .Education-section{
-    background-color: #182B2B;
+    background: linear-gradient(to bottom, #314F4F,#000000);
 }
 
 .edu-contents .box h4{
@@ -750,7 +750,7 @@ span {
 
 /*Experience section Start*/
 .experience-section{
-    background: linear-gradient(to bottom, #000000, #314F4F);
+    background: linear-gradient(to bottom, #000000,#314F4F);
 }
 .exp-box{
     color: black;
@@ -827,7 +827,7 @@ span {
     padding: 50px 0 0 70px;
 }
 .skill-section {
-    background-color: black;
+    background: linear-gradient(to bottom,  #314F4F,#000000);
     color: white;
 }
 .skill-col{
@@ -1268,7 +1268,7 @@ span {
 /*contact section start*/
 
 .contact-section{
-    background: linear-gradient(to bottom,  #000000 ,#314F4F );
+    background: linear-gradient(to bottom, #314F4F,#000000 );
 }
 
 .content-div{
@@ -1368,7 +1368,7 @@ span {
 
 
 .contact-card01{
-    background: linear-gradient(to bottom, #314F4F,#000000);
+    background: linear-gradient(to bottom, #000000,#314F4F);
 
 }
 .contact-content-div{
