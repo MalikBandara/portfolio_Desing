@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.main1{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+
+}
+.main2{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+
+}
+.relative{
+    position: relative;
+}
+.get-middle{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+.main3{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main4{
+    width: 50%;
+    height: 50%;
+    background-color: deeppink;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.middle-div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+
+}
+.middle-circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+
+}
+.main1-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+
+
+
+}
+.main2-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+
+
+
+}
+.main3-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+
+
+}
+.main4-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+
+}
+.m1-div{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+
+}
+.m2-div{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+
+}
+.m3-div{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+
+}
+.m4-div{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+
+}
+.outer-div1{
+    top: -90px;
+    left: -90px;
+
+}
+.outer-div2{
+    top: -90px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.outer-div3{
+    top: -90px;
+    right: -90px;
+}
+.outer-div4{
+    bottom: -90px;
+    left: -90px;
+}
+.outer-div5{
+    bottom: -90px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.outer-div6{
+    bottom: -90px;
+    right: -90px;
+
+}
+.outer-short{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+
+}

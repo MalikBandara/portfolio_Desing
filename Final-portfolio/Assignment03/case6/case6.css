@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    background: #796e6e;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-auto-rows: 300px;
+}
+.grid-container >div{
+    border: 1px solid black;
+}
+.d1{
+    grid-column: 1/3;
+    background: red;
+}
+.d2{
+    background: green;
+}
+.d3{
+    grid-row: 1/4;
+    grid-column: 4/5;
+    background: orangered;
+}
+.d4{
+    background: purple;
+}
+.d5{
+    background: deeppink;
+}
+.d6{
+    background: blue;
+}
+.d7{
+    background: brown;
+}
+.d8{
+    grid-column: 2/4;
+    background: slateblue;
+}
