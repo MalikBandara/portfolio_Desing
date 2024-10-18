@@ -1,71 +1,13 @@
-/* Base styles */
-main {
-    display: flex; /* Use flexbox layout */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    justify-content: space-between; /* Space items evenly */
-    background: linear-gradient(to bottom, #000000, #314F4F);
-    padding: 20px; /* Added padding around the container */
+.gallery-section{
+    background: linear-gradient(to bottom,  #000000,#314F4F );
+    padding: 200px;
 }
 
-.gallery,
-.gallery2 {
-    flex: 0 0 calc(100% - 20px); /* Spans full width on small screens */
-    padding: 0; /* No padding */
-    background-color: black; /* Background color for the galleries */
-    margin: 0 10px 20px; /* Side margin for spacing between items */
-    color: white; /* Text color */
-    border-radius: 10px; /* Rounded corners for galleries */
-}
+.top-banner {
+    position: absolute;
+    /*background-color: white;*/
 
-.figure1, .figure2, .figure3, .figure4, .figure5, .figure6, .figure7 {
-    flex: 0 0 calc(100% - 20px); /* Each image takes up full width on small screens */
-    margin: 0 10px 20px; /* Side margin for spacing between items */
-    overflow: hidden; /* Ensure any overflow is hidden */
-    display: flex; /* Make figure a flex container */
-    align-items: center; /* Center content vertically */
-    justify-content: center; /* Center content horizontally */
-}
+    top: 10%; /* Center vertically */
 
-.figure-img {
-    border-radius: 10px; /* Rounded corners for images */
-    width: 100%; /* Image width fills the container */
-    height: auto; /* Maintain aspect ratio by using auto height */
-    max-height: 300px; /* Set a maximum height for the images */
-    object-fit: cover; /* Ensures all images maintain aspect ratio and fill the space */
-    margin: 0; /* No margin */
-}
 
-/* Styles for screens 768px and larger */
-@media (min-width: 768px) {
-    .gallery,
-    .gallery2 {
-        flex: 0 0 calc(30% - 20px); /* Spans approximately one-third of the container minus margin */
-    }
-
-    .figure1, .figure2, .figure3, .figure4, .figure5, .figure6, .figure7 {
-        flex: 0 0 calc(30% - 20px); /* Each image takes up approximately one-third of the row minus margin */
-    }
-
-    .figure-img {
-        max-height: 450px; /* Set a maximum height for the images */
-    }
-}
-
-/* Styles for screens 1024px and larger */
-@media (min-width: 1024px) {
-    main {
-        padding: 200px; /* Increased padding around the container */
-    }
-}
-
-/* Styles for screens 1200px and larger */
-@media (min-width: 1200px) {
-    .gallery,
-    .gallery2 {
-        flex: 0 0 calc(30% - 20px); /* Adjusted width for larger screens */
-    }
-
-    .figure1, .figure2, .figure3, .figure4, .figure5, .figure6, .figure7 {
-        flex: 0 0 calc(30% - 20px); /* Each image takes up approximately one-third of the row minus margin */
-    }
 }

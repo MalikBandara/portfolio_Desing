@@ -61,3 +61,20 @@ window.onscroll = ()=>{
     });
 };
 
+
+
+
+// nav bar scrolled
+
+
+// JavaScript to show/hide the navigation bar based on scroll
+window.addEventListener('scroll', function() {
+    const nav = document.querySelector('nav');
+    const bannerHeight = document.querySelector('.banner').offsetHeight;
+
+    if (window.scrollY > bannerHeight) {
+        nav.classList.add('scrolled'); // Add class to make nav visible
+    } else {
+        nav.classList.remove('scrolled'); // Remove class to hide nav
+    }
+});
