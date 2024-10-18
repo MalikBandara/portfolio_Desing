@@ -81,3 +81,21 @@
     object-fit: cover; /* Maintain aspect ratio and cover the area */
     border-radius: 10px; /* Optional: Add rounded corners to images */
 }
+
+@media (max-width: 1024px) {
+    .banner .slider {
+        width: 100px; /* Width of the slider container */
+        height: 150px; /* Height of the slider container */
+    }
+    .banner .slider .item {
+        position: absolute;
+        inset: 0 0 0 0 ; /* Fill the entire slider area */
+        margin: 0 10px; /* Space between slides */
+        transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(300px); /* 3D effect with increased Z translation for spacing */
+    }
+    .banner{
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+}

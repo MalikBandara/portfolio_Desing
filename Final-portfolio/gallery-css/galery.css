@@ -69,3 +69,12 @@
 }
 
 
+
+@media (max-width: 1024px) {
+    .banner{
+        display: none;
+    }
+    .gallery-section{
+        display: none;
+    }
+}

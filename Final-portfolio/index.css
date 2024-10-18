@@ -1464,7 +1464,16 @@ span {
         font-size: 3rem;
 
     }
+    .contact-section{
+        background: linear-gradient(to bottom, #000000,#314F4F );
+    }
 }
+@media  (max-width:  768px) {
+    .contact-section{
+        background: linear-gradient(to bottom, #000000,#314F4F );
+    }
+}
+
 @media (max-width: 480px) {
     .content-col1 h1{
         font-size: 2rem;
