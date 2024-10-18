@@ -1261,7 +1261,10 @@ span {
 }
 
 /*project section end */
-
+.gallery-ti-colour{
+    padding-top: 150px;
+    background: linear-gradient(to bottom,  #000000, #000000);
+}
 
 
 /*assignment section start */
@@ -1311,7 +1314,7 @@ span {
 
 @media (max-width: 500px) {
     .assignment-card{
-        width: 350px;
+        width: 330px;
     }
 
 }
