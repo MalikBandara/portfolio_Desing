@@ -54,14 +54,15 @@ nav {
     transition: background-color 0.3s, opacity 0.3s; /* Smooth transition for visibility */
     opacity: 0; /* Initially hidden */
     z-index: 1000; /* Make sure it's above other content */
+    backdrop-filter: blur(10px);
+
 }
 
 nav.scrolled {
 
     opacity: 1; /* Show the nav */
-    background-color: rgba(255, 255, 255, 0.29);
-    backdrop-filter: blur(10px);
-
+    background-color: rgba(255, 255, 255, 0.56);
+    color: black;
 }
 
 .logo {
@@ -86,7 +87,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     font-size: 1rem;
     text-transform: uppercase;
     padding: 7px 13px;
