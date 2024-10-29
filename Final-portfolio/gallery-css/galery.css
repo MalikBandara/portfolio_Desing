@@ -5,9 +5,9 @@
 
 .top-banner {
     position: absolute;
-    /*background-color: white;*/
 
-    top: 10%; /* Center vertically */
+
+    top: 10%;
 }
 
 
@@ -19,7 +19,7 @@
     100% { background-color: black; }
 }
 .animation-clor{
-    animation: backgroundChange 20s linear infinite; /* Adjust duration as needed */
+    animation: backgroundChange 20s linear infinite;
 }
 
 .banner2 {
@@ -35,13 +35,13 @@
 
 .banner2 .slider {
     position: absolute;
-    /*background-color: white;*/
-    width: 200px; /* Width of the slider container */
-    height: 250px; /* Height of the slider container */
-    top: 40%; /* Center vertically */
+
+    width: 200px;
+    height: 250px;
+    top: 40%;
     left: calc(50% - 100px);
-    transform: translate(-50%, -50%) perspective(1000px); /* Center and set perspective */
-    transform-style: preserve-3d; /* Enable 3D transformations */
+    transform: translate(-50%, -50%) perspective(1000px);
+    transform-style: preserve-3d;
     animation: autoRun2 20s linear    infinite;
 }
 
@@ -56,16 +56,16 @@
 
 .banner2 .slider .item {
     position: absolute;
-    inset: 0 0 0 0 ; /* Fill the entire slider area */
-    margin: 0 10px; /* Space between slides */
-    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(400px); /* 3D effect with increased Z translation for spacing */
+    inset: 0 0 0 0 ;
+    margin: 0 10px;
+    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(400px);
 }
 
 .banner2 .slider .item img {
-    width: 100%; /* Full width of the item */
-    height: 100%; /* Full height of the item */
-    object-fit: cover; /* Maintain aspect ratio and cover the area */
-    border-radius: 10px; /* Optional: Add rounded corners to images */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 
